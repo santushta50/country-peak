@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.header__brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.header__nav {
+  display: flex;
+  gap: 18px;
+  font-weight: 600;
+}
+
+.header__nav a {
+  color: #ffffff;
+}
+
+.home {
+  padding: 32px 24px;
+}
+
+.search-bar {
+  max-width: 520px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search-bar__input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-bar__input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.home__placeholder {
+  margin-top: 20px;
+  color: #475569;
+  text-align: center;
+}
+
+.not-found {
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.not-found h2 {
+  margin-bottom: 12px;
+}
+
+.not-found p {
+  margin-bottom: 18px;
+  color: #475569;
+}
+
+.page-placeholder {
+  padding: 48px 24px;
+  color: #475569;
+}
