@@ -393,3 +393,9 @@
   color: #be123c;
 }
 
+
+@media (max-width: 768px) { h3.card__name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; display: block; } }
+@media (max-width: 600px) { .header { flex-direction: column; gap: 16px; align-items: stretch; padding: 16px; } .header__nav { justify-content: center; flex-wrap: wrap; } }
+@media (max-width: 500px) { .cards-grid { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .country-page__layout, .country-page__details { grid-template-columns: 1fr; gap: 24px; } }
+.card__name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
