@@ -366,3 +366,30 @@
 .home__status--error {
   color: #b91c1c;
 }
+
+.fav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  margin-top: 8px;
+  color: var(--muted-text);
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+}
+
+.fav-btn:hover {
+  background-color: var(--input-border);
+  color: var(--text);
+}
+
+.fav-btn--saved {
+  color: #e11d48;
+}
+
+.fav-btn--saved:hover {
+  color: #be123c;
+}
+
